@@ -5,4 +5,8 @@ entityframeworkcore.tools
 en el proyecto de punto de entrada, generalmente la api o la web, se instala
 entityframeworkcore.design
 
-scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;Initial Catalog=SocialMedia;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data
+correr esto en el proyecto de data para armar el contexto
+scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;Initial Catalog=SocialMedia;Integrated Security=True" 
+Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data
+
+declarar la connection string en el appsettings de la api y en el startup
