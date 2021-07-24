@@ -5,6 +5,7 @@ using SocialMedia.Core.Entities;
 
 namespace SocialMedia.Infrastructure.Data
 {
+    //Clase contexto
     public partial class SocialMediaContext : DbContext
     {
         public SocialMediaContext()
