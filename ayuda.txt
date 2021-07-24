@@ -1,0 +1,8 @@
+En el proyecto de infraestructura o donde estan los repositorios se instala
+entityframeworkcore.sqlserver
+entityframeworkcore.tools
+
+en el proyecto de punto de entrada, generalmente la api o la web, se instala
+entityframeworkcore.design
+
+scaffold-DbContext "Server=(localdb)\MSSQLLocalDB;Initial Catalog=SocialMedia;Integrated Security=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data
